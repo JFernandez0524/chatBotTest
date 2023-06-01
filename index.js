@@ -1,6 +1,7 @@
 import 'dotenv/config';
 import axios from 'axios';
 
+//make call to chatbot
 axios
   .get('https://api.chatbot.com/v2/stories', {
     headers: {
